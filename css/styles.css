@@ -86,9 +86,11 @@ img {
   font-size: 26px;
   line-height: 1.19;
 }
+.nav-page .logo {
+  margin-right: 93px;
+}
 .logo-header {
   color: var(--logo-color);
-  margin-right: 93px;
 }
 .logo-footer {
   color: var(--hero-white-color);
@@ -202,12 +204,14 @@ img {
   text-align: center;
 }
 .team-name {
-  margin-top: 30px;
   margin-bottom: 10px;
   color: var(--title-text-color);
   font-weight: 500;
 }
-.section-no-top {
+.team-box {
+  padding: 30px 24px;
+}
+.work {
   padding-top: 0px;
 }
 .work-list {
@@ -229,7 +233,6 @@ img {
   width: calc(100% / 4 - 30px);
   margin-left: 30px;
   margin-top: 30px;
-  padding-bottom: 30px;
   background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -257,7 +260,7 @@ img {
   padding-bottom: 60px;
   padding-top: 60px;
 }
-.basement-logo {
+.basement .logo {
   margin-bottom: 20px;
 }
 .basement-items:not(:last-child) {
